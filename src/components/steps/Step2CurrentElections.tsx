@@ -41,10 +41,10 @@ export function Step2CurrentElections({ elections }: Step2Props) {
       <div className="flex items-start gap-3 p-4 rounded-xl bg-blue-50 border border-blue-100">
         <Info className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
         <div>
-          <p className="text-sm font-semibold text-blue-800">Your Current 2024 Coverage</p>
+          <p className="text-sm font-semibold text-blue-800">Your Current 2025 Coverage</p>
           <p className="text-sm text-blue-700 mt-0.5">
             Review your existing benefit elections below. In the next step, you'll have the opportunity to
-            select new plans for 2025. Your current plans will expire on December 31, 2024.
+            select new plans for 2026. Your current plans will expire on December 31, 2025.
           </p>
         </div>
       </div>
@@ -54,7 +54,7 @@ export function Step2CurrentElections({ elections }: Step2Props) {
         <CardContent className="pt-6">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-slate-400 font-medium">2024 Total Premium</p>
+              <p className="text-sm text-slate-400 font-medium">2025 Total Premium</p>
               <p className="text-3xl font-bold mt-1">{formatCurrency(totalMonthly)}<span className="text-lg font-normal text-slate-400">/mo</span></p>
               <p className="text-sm text-slate-400 mt-1">{formatCurrency(totalAnnual)} annually</p>
             </div>
@@ -127,7 +127,7 @@ export function Step2CurrentElections({ elections }: Step2Props) {
                 <div className="flex items-center gap-2 p-3 rounded-lg bg-amber-50 border border-amber-100">
                   <Calendar className="w-4 h-4 text-amber-500 flex-shrink-0" />
                   <p className="text-xs text-amber-700">
-                    This plan expires <strong>December 31, 2024</strong>. You must re-enroll to maintain coverage in 2025.
+                    This plan expires <strong>December 31, 2025</strong>. You must re-enroll to maintain coverage in 2026.
                   </p>
                   <ArrowRight className="w-4 h-4 text-amber-500 ml-auto flex-shrink-0" />
                 </div>
