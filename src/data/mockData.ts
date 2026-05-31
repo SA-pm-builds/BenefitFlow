@@ -18,7 +18,7 @@ export const mockEmployee: Employee = {
   },
   isSmoker: false,
   hireDate: '2019-07-01',
-  enrollmentPeriod: 'Open Enrollment 2025 — Jan 1 – Dec 31, 2025',
+  enrollmentPeriod: 'Open Enrollment 2026 — Jan 1 to Dec 31, 2026',
 }
 
 export const mockDependents: Dependent[] = [
