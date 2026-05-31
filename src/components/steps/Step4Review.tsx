@@ -85,11 +85,11 @@ export function Step4Review({
         </div>
         <h2 className="text-2xl font-bold text-foreground mb-2">Enrollment Confirmed!</h2>
         <p className="text-muted-foreground max-w-md mb-2">
-          Your 2025 benefits enrollment has been successfully submitted. A confirmation email has been sent to{' '}
+          Your 2026 benefits enrollment has been successfully submitted. A confirmation email has been sent to{' '}
           <strong>{employee.email}</strong>.
         </p>
         <p className="text-sm text-muted-foreground mb-8">
-          Coverage begins <strong>January 1, 2025</strong>.
+          Coverage begins <strong>January 1, 2026</strong>.
         </p>
 
         <div className="w-full max-w-sm bg-muted/50 rounded-xl p-5 text-left space-y-3">
@@ -136,7 +136,7 @@ export function Step4Review({
           <CardContent className="pt-5">
             <div className="flex items-center justify-between mb-4">
               <div>
-                <p className="text-sm text-blue-200">2025 Monthly Premium</p>
+                <p className="text-sm text-blue-200">2026 Monthly Premium</p>
                 <p className="text-3xl font-bold mt-0.5">{formatCurrency(totalMonthly)}</p>
                 <p className="text-sm text-blue-200 mt-0.5">{formatCurrency(annualTotal)} annually</p>
               </div>
@@ -208,7 +208,7 @@ export function Step4Review({
       <Card>
         <CardHeader className="pb-3">
           <CardTitle className="text-base">Selected Plans</CardTitle>
-          <CardDescription>Your 2025 benefit elections effective January 1, 2025</CardDescription>
+          <CardDescription>Your 2026 benefit elections effective January 1, 2026</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           {selectedPlans.map(({ plan, premium, type }, index) => {
@@ -275,7 +275,7 @@ export function Step4Review({
               <p className="text-xs text-muted-foreground mt-1">{Math.abs(pctChange).toFixed(1)}% {monthlyDiff >= 0 ? '↑' : '↓'}</p>
             </div>
             <div className="p-4 rounded-xl bg-blue-50 border border-blue-100">
-              <p className="text-xs text-blue-600 font-medium uppercase tracking-wide">2025 Monthly</p>
+              <p className="text-xs text-blue-600 font-medium uppercase tracking-wide">2026 Monthly</p>
               <p className="text-2xl font-bold text-blue-700 mt-1">{formatCurrency(totalMonthly)}</p>
             </div>
           </div>
@@ -291,9 +291,9 @@ export function Step4Review({
               <p className="text-sm font-semibold text-amber-800">Important Notice</p>
               <p className="text-xs text-amber-700 mt-1 leading-relaxed">
                 By confirming your enrollment, you acknowledge that benefit elections are binding for the plan
-                year (January 1 – December 31, 2025) and can only be changed during a qualifying life event
+                year (January 1 – December 31, 2026) and can only be changed during a qualifying life event
                 (QLE) or the next open enrollment period. Your pre-tax contributions will be reflected in your
-                first paycheck of 2025.
+                first paycheck of 2026.
               </p>
             </div>
           </div>
@@ -305,7 +305,7 @@ export function Step4Review({
             />
             <Label htmlFor="agree" className="cursor-pointer text-sm font-medium">
               I have reviewed my elections and agree to the terms above. I understand my elections are
-              effective January 1, 2025.
+              effective January 1, 2026.
             </Label>
           </div>
         </CardContent>
