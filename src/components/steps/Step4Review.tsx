@@ -150,7 +150,7 @@ export function Step4Review({
                    monthlyDiff > 0 ? <TrendingUp className="w-4 h-4" /> :
                    <Minus className="w-4 h-4" />}
                   {monthlyDiff === 0 ? 'No change' :
-                   `${monthlyDiff > 0 ? '+' : ''}${formatCurrency(monthlyDiff)}/mo vs 2024`}
+                   `${monthlyDiff > 0 ? '+' : ''}${formatCurrency(monthlyDiff)}/mo vs 2025`}
                 </div>
                 <p className="text-xs text-blue-300 mt-1.5">
                   {Math.abs(pctChange).toFixed(1)}% {monthlyDiff >= 0 ? 'increase' : 'decrease'} from last year
@@ -260,7 +260,7 @@ export function Step4Review({
         <CardContent>
           <div className="grid grid-cols-3 gap-4 text-center">
             <div className="p-4 rounded-xl bg-muted/50">
-              <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">2024 Monthly</p>
+              <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">2025 Monthly</p>
               <p className="text-2xl font-bold mt-1">{formatCurrency(previousMonthlyTotal)}</p>
             </div>
             <div className="flex flex-col items-center justify-center">
