@@ -254,7 +254,7 @@ export function Step4Review({
         <CardHeader className="pb-3">
           <div className="flex items-center gap-2">
             <DollarSign className="w-4 h-4 text-muted-foreground" />
-            <CardTitle className="text-base">Year-over-Year Cost Comparison</CardTitle>
+            <CardTitle className="text-base">Month-over-Month Cost Comparison</CardTitle>
           </div>
         </CardHeader>
         <CardContent>
