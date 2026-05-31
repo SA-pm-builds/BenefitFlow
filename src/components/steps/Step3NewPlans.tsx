@@ -335,7 +335,7 @@ export function Step3NewPlans({
       <div className="flex items-start gap-3 p-4 rounded-xl bg-blue-50 border border-blue-100">
         <Info className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
         <div className="flex-1">
-          <p className="text-sm font-semibold text-blue-800">Select Your 2025 Plans</p>
+          <p className="text-sm font-semibold text-blue-800">Select Your 2026 Plans</p>
           <p className="text-sm text-blue-700 mt-0.5">
             Choose a plan for each benefit type. Coverage tier is set to <strong>{coverageTier}</strong> based
             on your dependents. Premiums shown reflect your employee share.
