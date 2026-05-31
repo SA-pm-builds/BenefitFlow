@@ -24,7 +24,7 @@ const steps: Step[] = [
   {
     number: 3,
     title: 'Select New Plans',
-    description: 'Choose 2025 benefits',
+    description: 'Choose 2026 benefits',
     icon: ShieldCheck,
   },
   {
@@ -51,7 +51,7 @@ export function Sidebar({ currentStep, onStepClick }: SidebarProps) {
           </div>
           <div>
             <span className="text-lg font-bold tracking-tight">BenefitFlow</span>
-            <p className="text-xs text-slate-400 font-normal">Open Enrollment 2025</p>
+            <p className="text-xs text-slate-400 font-normal">Open Enrollment 2026</p>
           </div>
         </div>
       </div>
